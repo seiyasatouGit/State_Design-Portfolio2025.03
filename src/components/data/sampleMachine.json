@@ -1,0 +1,10 @@
+{
+    "states": {
+      "idle": { "on": { "FETCH": "loading" } },
+      "loading": { "on": { "RESOLVE": "success", "REJECT": "failure" } },
+      "success": {},
+      "failure": { "on": { "RETRY": "loading" } }
+    },
+    "initial": "idle"
+  }
+  
