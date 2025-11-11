@@ -1,5 +1,7 @@
-import React from 'react';
-import StateMachineGraph from './components/StateMachineGraph';
+// import React from 'react';
+// import StateMachineGraph from './components/StateMachineGraph';
+
+
 
 const App = () => (
   <div className="p-4">
